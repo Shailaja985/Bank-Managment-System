@@ -1,0 +1,14 @@
+package com.bms.app.service;
+
+import com.bms.app.model.UserModel;
+
+public class UserServiceImpl implements UserService {
+	
+	private UserRepository userRepository;
+	@Override
+	public UserModel CreateUser(UserModel userModel) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

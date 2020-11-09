@@ -1,0 +1,43 @@
+package com.bms.app.data;
+
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
+
+@Entity
+@Table(name="user")
+public class UserEntity {
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
+	private long customerId;
+	
+	@Column(nullable=false,length=50)
+	private String firstName;
+	
+	
+	@Column(nullable=false,length=50)
+	private String lastName;
+	
+	private String address;
+	private String state;
+	private String county;
+	
+	
+	@Column(nullable=false,length=120,unique=true)
+	private String email;
+	private String panNumber;
+	private int contactNumber;
+	private String dateOfBirth;
+	private String accountType;
+	
+	@Column(nullable=false,unique=true)
+	private String accountNumber;
+	
+	@Column(nullable=false)
+	private String enctryptedPassword;
+
+}

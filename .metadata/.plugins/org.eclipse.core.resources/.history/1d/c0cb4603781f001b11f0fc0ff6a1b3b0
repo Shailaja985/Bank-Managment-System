@@ -1,0 +1,14 @@
+package com.bms.app.service;
+
+import com.bms.app.data.UserEntity;
+import com.bms.app.model.LoginModel;
+
+public class LoginServiceImpl implements LoginService {
+
+	@Override
+	public UserEntity login(LoginModel loginModel) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

@@ -1,0 +1,47 @@
+package com.bms.app;
+
+import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.bms.app.controller.UserController;
+import com.bms.app.data.UserEntity;
+import com.bms.app.repository.UserRepository;
+import com.bms.app.repository.UserRepositoryImpl;
+import com.bms.app.service.UserServiceImpl;
+
+@SpringBootTest
+class BmsUserRegisterApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+	
+	@InjectMocks
+	UserServiceImpl userServiceImpl;
+	
+	
+	
+	@InjectMocks
+	UserController userController;
+
+	@Mock
+	UserRepositoryImpl userRepositoryImpl;
+	
+	@Mock
+	UserRepository userRepository;
+	
+	@Test
+	 void testUserregistration() {
+		UserEntity u = new UserEntity("shails","shails@gmail.com", "password1");
+		SignUpDto s = new SignUpDto("nadh", "Prafu@29", "nadh@gmail.com", "dsnr", "ts", "Ind", "7711223344",
+				"KHFVC12345", "sb");
+		when(udao.save(u)).thenReturn(u);
+
+		ApiResponse re = serviceImpl.signUp(s);
+		assertThat(re).isNotNull();
+
+	}
+
+}

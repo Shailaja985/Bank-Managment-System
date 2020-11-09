@@ -1,0 +1,28 @@
+package com.bms.app.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+
+import com.bms.app.model.UserModel;
+import com.bms.app.repository.UserRepository;
+import com.bms.app.shared.UserDto;
+
+@Service
+public class UseServiceImpl implements UserService {
+	
+	@Autowired
+	private UserRepository userRepository;
+
+	@Override
+	public UserDto CreateUser(UserDto userDto) {
+		userDto.setAccountNumber(createAccountNumber());
+		return null;
+	}
+	
+	String createAccountNumber(){
+		String accountNumber;
+		
+		return accountNumber;
+	}
+
+}

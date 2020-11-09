@@ -1,0 +1,6 @@
+
+p
+java:S1128"8Remove this unused import 'com.bms.app.model.UserModel'.(²¿µÔüÿÿÿÿ8£ÙùšÙ.H§RMINORZ
+CODE_SMELL
+€	java:S100	"NRename this method name to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ÇÍë²8‚¢À”Ù.HùRMINORZ
+CODE_SMELL

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;bms-config-server/src/main/resources/config/user-register&apos; to &apos;user-register.properties&apos;" description="Rename resource &apos;user-register&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/main/resources/config/user-register" name="user-register.properties" stamp="1604583578453" updateReferences="true"/>
+</session>

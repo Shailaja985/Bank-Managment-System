@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="bms-user-register" project="bms-user-register" tests="2" started="2" failures="0" errors="0" ignored="0">
+  <testsuite name="com.bms.app.BmsUserRegisterApplicationTests" time="0.006" displayname="BmsUserRegisterApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.bms.app.BmsUserRegisterApplicationTests]">
+    <testcase name="contextLoads" classname="com.bms.app.BmsUserRegisterApplicationTests" time="0.006" displayname="contextLoads()" uniqueid="[engine:junit-jupiter]/[class:com.bms.app.BmsUserRegisterApplicationTests]/[method:contextLoads()]"/>
+    <testcase name="testUserRegistration" classname="com.bms.app.BmsUserRegisterApplicationTests" time="0.0" displayname="testUserRegistration()" uniqueid="[engine:junit-jupiter]/[class:com.bms.app.BmsUserRegisterApplicationTests]/[method:testUserRegistration()]"/>
+  </testsuite>
+</testrun>

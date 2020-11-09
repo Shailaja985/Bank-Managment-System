@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BmsUserUpdateApplicationTests.testApplication" project="bms-user-update" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.bms.app.BmsUserUpdateApplicationTests" time="3.086" displayname="BmsUserUpdateApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.bms.app.BmsUserUpdateApplicationTests]">
+    <testcase name="testApplication" classname="com.bms.app.BmsUserUpdateApplicationTests" time="3.086" displayname="testApplication()" uniqueid="[engine:junit-jupiter]/[class:com.bms.app.BmsUserUpdateApplicationTests]/[method:testApplication()]"/>
+  </testsuite>
+</testrun>

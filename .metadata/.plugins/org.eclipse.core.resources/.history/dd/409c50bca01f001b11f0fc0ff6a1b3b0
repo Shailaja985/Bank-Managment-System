@@ -1,0 +1,5 @@
+package com.bms.app.controller;
+
+public class LoanController {
+
+}

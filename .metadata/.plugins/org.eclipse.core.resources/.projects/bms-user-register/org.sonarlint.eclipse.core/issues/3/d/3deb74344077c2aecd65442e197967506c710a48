@@ -1,0 +1,7 @@
+
+•
+java:S1128"]Remove this unused import 'org.springframework.cloud.context.config.annotation.RefreshScope'.(­Ύξ²ϋÿÿÿÿ8°γίΩ.H“RMINORZ
+CODE_SMELL
+
+java:S1128"]Remove this unused import 'org.springframework.cloud.client.discovery.EnableDiscoveryClient'.(¬Η­D8°γίΩ.H’RMINORZ
+CODE_SMELL

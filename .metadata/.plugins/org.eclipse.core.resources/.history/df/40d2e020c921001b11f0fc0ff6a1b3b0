@@ -1,0 +1,99 @@
+package com.bms.app;
+
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.mockito.Mockito.when;
+
+import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.bms.app.controller.LoginController;
+import com.bms.app.controller.UserController;
+import com.bms.app.data.UserEntity;
+import com.bms.app.model.LoginModel;
+import com.bms.app.repository.LoginRepository;
+import com.bms.app.repository.UserRepository;
+import com.bms.app.repository.UserRepositoryImpl;
+import com.bms.app.service.LoginServiceImpl;
+import com.bms.app.service.UserServiceImpl;
+import com.bms.app.shared.UserDto;
+import org.junit.jupiter.api.Assertions;
+
+@SpringBootTest
+class BmsUserLoginApplicationTests {
+
+	@InjectMocks
+	UserServiceImpl serviceImpl;
+	
+	@InjectMocks
+	LoginServiceImpl loginserviceImpl;
+	
+	
+	
+	@InjectMocks
+	UserController userController;
+	
+	@InjectMocks
+	LoginController loginController;
+
+	@Mock
+	UserRepositoryImpl userRepositoryImpl;
+	
+	@Mock
+	UserRepository userRepository;
+	
+	@Mock
+	LoginRepository loginRepository;
+	
+//	@Test
+//	void testlogin() {
+//		UserEntity userEntity=new UserEntity(101,"shails","klnagar","kar","Ind","shails@gmail.com",
+//			       "7987dhf","99999999","29/01/2019","self","1234567890123456","password1");
+//		UserDto userDto=new UserDto("shails","klnagar","kar","Ind","shails@gmail.com",
+//		       "7987dhf","99999999","29/01/2019","self","password1");
+//		when(loginRepository.save(userEntity)).thenReturn(userEntity);
+//		LoginModel loginModel = new LoginModel("shails","password1");
+//		assertThat(userEntity).isNotNull();
+//		UserEntity userEntity1 = loginserviceImpl.login(loginModel);
+//	   UserEntity UserEntity2 = loginController.login(loginModel);
+//		assertThat(userEntity1).isNotNull();
+		
+//		when(userDao.save(u)).thenReturn(u);
+//		LoginDto login = new LoginDto("nadh","Prafu@29");
+	
+		
+	//}
+	
+	
+	
+	
+//	@Test
+//	void testlogin1() {
+//		User u = new User(99, "nadh", "Prafu@29", "nadh@gmail.com", "dsnr", 2213726038414410L, "ts", "Ind",
+//				"7711223344", "KHFVC12345", "sb");
+//		SignUpDto s = new SignUpDto("nadh", "Prafu@29", "nadh@gmail.com", "dsnr", "ts", "Ind", "7711223344",
+//				"KHFVC12345", "sb");
+//		when(userDao.save(u)).thenReturn(u);
+//		LoginDto login = new LoginDto();
+//		login.setUserName("nadh");
+//		login.setPassword("Prafu@29");
+//		ApiResponse re = logincont.login(login);
+//				
+//		
+//	
+//			}
+	
+	@Test
+	void testlogin() {
+		UserEntity userEntity=new UserEntity(101,"shails","klnagar","kar","Ind","shails@gmail.com",
+			       "7987dhf","99999999","29/01/2019","self","1234567890123456","password1");
+		UserDto userDto=new UserDto("shails","klnagar","kar","Ind","shails@gmail.com",
+		       "7987dhf","99999999","29/01/2019","self","password1");
+		when(loginRepository.save(userEntity)).thenReturn(userEntity);
+		LoginModel loginModel = new LoginModel("shails","password1");
+		assertThat(userEntity).isNotNull();
+	
+	
+}
+}

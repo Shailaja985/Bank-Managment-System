@@ -1,0 +1,9 @@
+package com.bms.app.service;
+
+import com.bms.app.data.UserEntity;
+import com.bms.app.model.UserModel;
+
+
+public interface UserService {
+	public UserEntity CreateUser(UserModel userModel);
+}

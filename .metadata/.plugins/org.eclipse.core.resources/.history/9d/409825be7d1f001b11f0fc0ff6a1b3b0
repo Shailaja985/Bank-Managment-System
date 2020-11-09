@@ -1,0 +1,34 @@
+package com.bms.app;
+
+import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.bms.app.controller.UserController;
+import com.bms.app.repository.UserRepository;
+import com.bms.app.repository.UserRepositoryImpl;
+import com.bms.app.service.UserServiceImpl;
+
+@SpringBootTest
+class BmsUserRegisterApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+	
+	@InjectMocks
+	UserServiceImpl userServiceImpl;
+	
+	
+	
+	@InjectMocks
+	UserController userController;
+
+	@Mock
+	UserRepositoryImpl userRepositoryImpl;
+	
+	@Mock
+	UserRepository userRepository;
+
+}

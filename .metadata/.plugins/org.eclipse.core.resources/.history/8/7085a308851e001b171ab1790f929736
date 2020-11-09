@@ -1,0 +1,8 @@
+package com.bms.app.service;
+
+import com.bms.app.model.UserModel;
+import com.bms.app.shared.UserDto;
+
+public interface UserService {
+	public UserDto CreateUser(UserModel userModel);
+}

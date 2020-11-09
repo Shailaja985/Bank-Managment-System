@@ -1,0 +1,14 @@
+package com.bms.app.service;
+
+import com.bms.app.model.UserModel;
+import com.bms.app.shared.UserDto;
+
+public class UseServiceImpl implements UserService {
+
+	@Override
+	public UserDto CreateUser(UserModel userModel) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

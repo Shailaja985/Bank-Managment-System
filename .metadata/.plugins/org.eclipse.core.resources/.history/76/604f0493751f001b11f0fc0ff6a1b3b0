@@ -1,0 +1,12 @@
+package com.bms.app.repository;
+
+import org.springframework.stereotype.Repository;
+
+import com.bms.app.data.UserEntity;
+
+@Repository
+public class LoginRepository {
+	
+	 UserEntity findByUserName(String userName);
+
+}

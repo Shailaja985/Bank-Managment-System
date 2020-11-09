@@ -1,0 +1,10 @@
+package com.bms.app.swagger;
+
+import org.springframework.context.annotation.Configuration;
+
+
+@Configuration
+
+public class SwaggerConfig {
+
+}

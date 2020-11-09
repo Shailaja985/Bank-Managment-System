@@ -1,0 +1,8 @@
+
+v	java:S112="FDefine and throw a dedicated exception instead of using a generic one.(Ò‚ÒιόÿÿÿÿHαRMAJORZ
+CODE_SMELL
+±
+java:S11300"„Remove the declaration of thrown exception 'org.springframework.security.core.AuthenticationException' which is a runtime exception.(ÿΉ†HβRMINORZ
+CODE_SMELL
+g	java:S125S"<This block of commented-out lines of code should be removed.(λ©µπHγRMAJORZ
+CODE_SMELL

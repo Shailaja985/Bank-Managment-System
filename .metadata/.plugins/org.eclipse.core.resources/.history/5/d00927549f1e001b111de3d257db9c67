@@ -1,0 +1,95 @@
+
+package com.bms.app.shared;
+
+
+
+public class UserDto {
+	
+	private String firstName;
+	private String lastName;
+	private String email;
+	private String contactNum;
+	private String address;
+	private String state;
+	private String county;
+	private String accountType;
+	private String panNumber;
+	private String dateOfBirth;
+	private String password;
+	private String accountNumber;
+	private String encryptedPassword;
+	public String getFirstName() {
+		return firstName;
+	}
+	public void setFirstName(String firstName) {
+		this.firstName = firstName;
+	}
+	public String getLastName() {
+		return lastName;
+	}
+	public void setLastName(String lastName) {
+		this.lastName = lastName;
+	}
+	public String getEmail() {
+		return email;
+	}
+	public void setEmail(String email) {
+		this.email = email;
+	}
+	public String getContactNum() {
+		return contactNum;
+	}
+	public void setContactNum(String contactNum) {
+		this.contactNum = contactNum;
+	}
+	public String getAddress() {
+		return address;
+	}
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	public String getState() {
+		return state;
+	}
+	public void setState(String state) {
+		this.state = state;
+	}
+	public String getCounty() {
+		return county;
+	}
+	public void setCounty(String county) {
+		this.county = county;
+	}
+	public String getAccountType() {
+		return accountType;
+	}
+	public void setAccountType(String accountType) {
+		this.accountType = accountType;
+	}
+	public String getPanNumber() {
+		return panNumber;
+	}
+	public void setPanNumber(String panNumber) {
+		this.panNumber = panNumber;
+	}
+	public String getDateOfBirth() {
+		return dateOfBirth;
+	}
+	public void setDateOfBirth(String dateOfBirth) {
+		this.dateOfBirth = dateOfBirth;
+	}
+	public String getPassword() {
+		return password;
+	}
+	public void setPassword(String password) {
+		this.password = password;
+	}
+	public String getAccountNumber() {
+		return accountNumber;
+	}
+	public void setAccountNumber(String accountNumber) {
+		this.accountNumber = accountNumber;
+	}
+	
+	
+}

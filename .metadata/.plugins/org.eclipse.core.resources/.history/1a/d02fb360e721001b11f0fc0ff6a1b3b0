@@ -1,0 +1,69 @@
+package com.bms.app;
+
+import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.bms.app.controller.LoanController;
+import com.bms.app.model.LoanDetails;
+import com.bms.app.model.UserDetails;
+import com.bms.app.repository.LoanRepository;
+import com.bms.app.service.LoanServiceImpl;
+
+@SpringBootTest
+class BmsUserLoanApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+	
+	@InjectMocks
+	LoanServiceImpl serviceImpl;
+	
+	@InjectMocks
+	LoanController loancont;
+
+	@Mock
+	LoanRepository loanRepository;
+
+	@Test
+	void testApplication() {
+		BmsUserLoanApplication.main(
+				new String[] { "--spring.main.web-environment=false", "--spring.autoconfigure.exclude=blahblahblah",
+
+				});
+	}
+	
+	@Test
+	void testloan() {
+		UserDetails userDetails = new UserDetails();
+
+		userDetails.setUserId(100);
+		userDetails.setAccntType("sb");
+		userDetails.setPanNum("ABCDEF12345");
+		userDetails.setPhoneNum("8978127720");
+		userDetails.setCountry("Ind");
+		userDetails.setState("AP");
+		userDetails.setEmailId("a@gmail.com");
+		userDetails.setAddress("tenali");
+		userDetails.setPassword("Prafu@29");
+		userDetails.setUserName("prafulla");
+		userDetails.setAccntNum(2213726038414410L);
+		
+		LoanDetails loanDetails = new LoanDetails();
+		loanDetails.setUserDetails(userDetails);
+		loanDetails.setDate("11-01-2020");
+		loanDetails.setDurationOfLoan("65");
+		loanDetails.setLoanAmount(200000L);
+		loanDetails.setLoanId(1);
+		loanDetails.setLoanType("personal");
+		loanDetails.setRateOfInterest("3.5");
+
+		Loan l1 = new Loan();
+		l1 = serviceImpl.applyLoan(l);
+		// assertThat(l1).isNotNull();
+
+	}
+
+}

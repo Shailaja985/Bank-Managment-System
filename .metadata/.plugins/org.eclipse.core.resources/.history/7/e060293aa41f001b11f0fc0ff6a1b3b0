@@ -1,0 +1,5 @@
+package com.bms.app.swagger;
+
+public class SwaggerConfig {
+
+}

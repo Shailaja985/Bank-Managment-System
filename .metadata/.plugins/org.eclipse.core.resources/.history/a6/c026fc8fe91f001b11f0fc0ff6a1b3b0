@@ -1,0 +1,171 @@
+package com.bms.app;
+
+import org.junit.jupiter.api.Test;
+import static org.mockito.Mockito.when;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.bms.app.controller.UserController;
+import com.bms.app.data.UserEntity;
+import com.bms.app.repository.UserRepository;
+import com.bms.app.repository.UserRepositoryImpl;
+import com.bms.app.service.UserServiceImpl;
+import com.bms.app.shared.UserDto;
+import static org.assertj.core.api.Assertions.assertThat;
+
+@SpringBootTest
+class BmsUserRegisterApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+	
+	@InjectMocks
+	UserServiceImpl userServiceImpl;
+	
+	
+	
+	@InjectMocks
+	UserController userController;
+
+	@Mock
+	UserRepositoryImpl userRepositoryImpl;
+	
+	@Mock
+	UserRepository userRepository;
+	
+	@Test
+	 void testUserRegistration() {
+		/**this.userId = userId;
+		this.userName = userName;
+		this.address = address;
+		this.state = state;
+		this.county = county;
+		this.email = email;
+		this.panNumber = panNumber;
+		this.contactNumber = contactNumber;
+		this.dateOfBirth = dateOfBirth;
+		this.accountType = accountType;
+		this.accountNumber = accountNumber;
+		this.password = password;
+		**/
+		
+		UserEntity userEntity=new UserEntity(101,"shails","klnagar","kar","Ind","shails@gmail.com",
+				       "7987dhf","99999999","29/01/2019","self","1234567890123456","password1");
+		UserDto userDto=new UserDto("shails","klnagar","kar","Ind","shails@gmail.com",
+			       "7987dhf","99999999","29/01/2019","self","password1");
+		when(userRepositoryImpl.save(userEntity)).thenReturn(userEntity);
+
+		UserEntity re = userServiceImpl.CreateUser(userDto);
+		assertThat(re).isNotNull();
+
+	}
+	
+	@Test
+	 void testUserRegistrationfail() {
+		UserEntity userEntity = new UserEntity();
+		UserDto userDto=new UserDto("shails","shails@gmail.com","password1");
+		when(userRepositoryImpl.save(userEntity)).thenReturn(userEntity);
+
+		UserEntity re = userServiceImpl.CreateUser(userDto);
+		assertThat(re).isNotNull();
+
+	}
+	
+	@Test
+	   void testUserRegistrationfail2() {
+		UserEntity userEntity = new UserEntity();
+		UserDto userDto = new UserDto();
+		when(userRepositoryImpl.save(userEntity)).thenReturn(userEntity);
+
+		UserEntity re = userServiceImpl.CreateUser(userDto);
+		assertThat(re).isNotNull();
+
+
+		}
+	
+	@Test
+	 void testUserRegistrationfail3() {
+		UserEntity userEntity=new UserEntity(101,"shails","klnagar","kar","Ind","shails@gmail.com",
+			       "7987dhf","99999999","29/01/2019","self","1234567890123456","password1");
+		UserDto userDto = new UserDto();
+		when(userRepositoryImpl.save(userEntity)).thenReturn(userEntity);
+
+		UserEntity re = userServiceImpl.CreateUser(userDto);
+		assertThat(re).isNotNull();
+	}
+	
+	@Test
+	 void testUserRegistrationfail4() {
+		UserEntity userEntity=new UserEntity(101,"s","klnagar","kar","Ind","shails@gmail.com",
+			       "7987dhf","99999999","29/01/2019","self","1234567890123456","password1");
+		UserDto userDto = new UserDto();
+		when(userRepositoryImpl.save(userEntity)).thenReturn(userEntity);
+
+		UserEntity re = userServiceImpl.CreateUser(userDto);
+		assertThat(re).isNotNull();
+	}
+	
+	@Test
+	 void testUserRegistrationfail5() {
+		UserEntity userEntity=new UserEntity(101,"shails","klnagar","kar","Ind","shails@gmail",
+			       "7987dhf","99999999","29/01/2019","self","1234567890123456","password1");
+		UserDto userDto = new UserDto();
+		when(userRepositoryImpl.save(userEntity)).thenReturn(userEntity);
+
+		UserEntity re = userServiceImpl.CreateUser(userDto);
+		assertThat(re).isNotNull();
+	}
+	
+	@Test
+	 void testbreaker() {
+		UserEntity userEntity=new UserEntity(101,"shails","klnagar","Kar","Ind","shails@gmail.com",
+			       "7987dhf","99999999","29/01/2019","self","1234567890123456","password1");
+		UserDto userDto=new UserDto("shails","shails@gmail.com","password1");
+		when(userRepositoryImpl.save(userEntity)).thenReturn(userEntity);
+	
+		UserEntity re = userServiceImpl.CreateUser(userDto);
+		assertThat(re).isNotNull();
+		
+	}
+	
+	@Test
+	void testset() {
+		UserEntity userEntity= new UserEntity();
+		userEntity.setUserId(100);
+		userEntity.setAccountType("sb");
+		userEntity.setPanNumber("ABCDEF12345");
+		userEntity.setContactNumber("8978127720");
+		userEntity.setCounty("Ind");
+		userEntity.setState("AP");
+		userEntity.setEmail("a@gmail.com");
+		userEntity.setAddress("tenali");
+		userEntity.setPassword("Prafu@29");
+		userEntity.setUserName("prafulla");
+		userEntity.setAccountNumber("2213726038414410L");
+		
+		UserDto UserDto = new UserDto();
+		UserDto.setAccountType("sb");
+		UserDto.setPanNumber("ABCDEF12345");
+		UserDto.setContactNum("8978127720");
+		UserDto.setCounty("Ind");
+		UserDto.setState("AP");
+		UserDto.setEmail("a@gmail.com");
+		UserDto.setAddress("tenali");
+		UserDto.setPassword("Prafu@29");
+		UserDto.setUserName("prafulla");
+		
+		when(udao.save(u1)).thenReturn(u1);
+		 re = new ApiResponse();
+		re.setMessage("Working");
+		re.setResult(u1);
+
+
+		//ApiResponse re = serviceImpl.signUp(s1);
+		assertThat(re).isNotNull();
+		
+	}
+	
+	
+}

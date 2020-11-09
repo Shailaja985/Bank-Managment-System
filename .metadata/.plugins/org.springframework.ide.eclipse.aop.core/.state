@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="bms-zuul-gateway"/>
+<aop-project name="bms-user-update"/>
+<aop-project name="bms-user-register"/>
+<aop-project name="bms-discovery-server"/>
+<aop-project name="bms-config-server"/>
+</aop-reference-model>

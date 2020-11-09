@@ -1,0 +1,5 @@
+package com.bms.app.shared;
+
+public class UserDto {
+
+}

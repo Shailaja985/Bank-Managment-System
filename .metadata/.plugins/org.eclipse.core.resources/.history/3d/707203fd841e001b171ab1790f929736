@@ -1,0 +1,19 @@
+package com.bms.app.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.bms.app.model.UserModel;
+import com.bms.app.repository.UserRepository;
+
+public class UserServiceImpl implements UserService {
+	
+	@Autowired
+	private UserRepository userRepository;
+	
+	@Override
+	public UserModel CreateUser(UserModel userModel) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+}

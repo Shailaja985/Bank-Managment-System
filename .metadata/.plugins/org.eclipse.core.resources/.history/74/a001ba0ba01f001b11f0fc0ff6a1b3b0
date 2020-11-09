@@ -1,0 +1,32 @@
+package com.bms.app.model;
+
+import java.io.Serializable;
+
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.JoinColumn;
+import javax.persistence.ManyToOne;
+
+public class LoanDetails implements Serializable {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+	
+	@Id
+	@GeneratedValue(strategy = GenerationType.AUTO)
+	private long loanId;
+
+	private String loanType;
+	private long loanAmount;
+	private String date;
+	private String rateOfInterest;
+	private String durationOfLoan;
+	
+	@ManyToOne
+	@JoinColumn(name = "regd_id")
+	private UserDetails user;
+
+}

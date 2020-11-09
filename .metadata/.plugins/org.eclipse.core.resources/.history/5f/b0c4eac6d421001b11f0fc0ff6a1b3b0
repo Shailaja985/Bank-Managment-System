@@ -1,0 +1,61 @@
+package com.bms.app;
+
+import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.bms.app.controller.UserController;
+import com.bms.app.data.UserEntity;
+import com.bms.app.repository.UserRepository;
+import com.bms.app.repository.UserRepositoryImpl;
+import com.bms.app.service.UserServiceImpl;
+import com.bms.app.shared.UserDto;
+import static org.mockito.Mockito.when;
+
+@SpringBootTest(classes= BmsUserUpdateApplication.class)
+class BmsUserUpdateApplicationTests {
+
+	@InjectMocks
+	UserServiceImpl serviceImpl;
+	
+	
+	
+	@InjectMocks
+	UserController userController;
+
+	@Mock
+	UserRepositoryImpl userRepositoryImpl;
+	
+	@Mock
+	UserRepository userRepository;
+	
+	
+	 @Test
+	    public void testcustupdate(){
+		 UserEntity userEntity=new UserEntity(101,"shails","klnagar","kar","Ind","shails@gmail.com",
+			       "7987dhf","99999999","29/01/2019","self","1234567890123456","password1");
+		 UserDto userDto=new UserDto("shails","klnagar","kar","Ind","shails@gmail.com",
+		       "7987dhf","99999999","29/01/2019","self","password1");
+			when(userRepository.save(userEntity)).thenReturn(userEntity);
+			
+			userController.updateUser(userEntity, 99);
+			userController.breaker(null, 99);
+		    UserEntity user = new UserEntity();
+					user.setAddress("kar");
+					user.setCounty("Ind");
+					user.setEmail("email@gmail.com");
+					user.setContactNumber("1234567891");
+					user.setState("Bang");
+					user.setUserName("shails");
+					
+					userRepository.save(user); 
+				
+
+				UserEntity customer =userController.updateUser(user, 99);
+				userController.breaker(null, -1);
+
+	 }
+	 
+}
+

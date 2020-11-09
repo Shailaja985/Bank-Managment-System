@@ -1,0 +1,32 @@
+package com.bms.app.service;
+
+import java.util.concurrent.ThreadLocalRandom;
+
+import org.springframework.beans.factory.annotation.Autowired;
+
+import com.bms.app.data.UserEntity;
+import com.bms.app.model.UserModel;
+import com.bms.app.repository.UserRepository;
+
+public class UserServiceImpl implements UserService {
+	
+	@Autowired
+	private UserRepository userRepository;
+	
+	@Override
+	public UserEntity CreateUser(UserModel userModel) {
+		userModel.setAccountNumber(random());
+		UserModel userModel=userRepository.save(userModel);
+		return userModel;
+	}
+	
+	private static String random() {
+		long smallest=1000_0000_0000_0000L;
+		long largest=9999_0000_0000_0000l;
+		
+		String random=String.valueOf(ThreadLocalRandom.current().nextLong(smallest,largest+1));
+		return random;
+	}
+
+
+}

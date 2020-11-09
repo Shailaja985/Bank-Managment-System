@@ -1,0 +1,6 @@
+package com.bms.app.repository;
+
+
+public interface LoanRepository extends JpaRepository<LoanDetails, Long> {
+
+}

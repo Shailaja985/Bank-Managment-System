@@ -1,0 +1,19 @@
+
+Ä
+java:S1130;"’Remove the declaration of thrown exception 'org.springframework.security.core.userdetails.UsernameNotFoundException' which is a runtime exception.(¹¤ø•þÿÿÿÿHŠRMINORZ
+CODE_SMELL
+l	java:S125)"<This block of commented-out lines of code should be removed.(¹¶‘ÓüÿÿÿÿHˆRMAJORZ
+CODE_SMELL
+
+java:S1488J"cImmediately return this expression instead of assigning it to the temporary variable "customerDto".(Ì´èH†RMINORZ
+CODE_SMELL
+
+java:S1488-"cImmediately return this expression instead of assigning it to the temporary variable "returnValue".(«Þ™ÿH„RMINORZ
+CODE_SMELL
+
+java:S14886"^Immediately return this expression instead of assigning it to the temporary variable "random".(¨ÎýÛùÿÿÿÿH…RMINORZ
+CODE_SMELL
+f	java:S125""<This block of commented-out lines of code should be removed.(’ý¦IH‡RMAJORZ
+CODE_SMELL
+l	java:S1255"<This block of commented-out lines of code should be removed.(¿ôîŽùÿÿÿÿH‰RMAJORZ
+CODE_SMELL

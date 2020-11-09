@@ -1,0 +1,5 @@
+package com.bms.app.data;
+
+public class UserEntity {
+
+}

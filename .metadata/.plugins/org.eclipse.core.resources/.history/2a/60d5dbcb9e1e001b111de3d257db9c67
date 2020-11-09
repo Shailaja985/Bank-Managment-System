@@ -1,0 +1,55 @@
+package com.bms.app.service;
+
+import java.util.concurrent.ThreadLocalRandom;
+
+import org.modelmapper.ModelMapper;
+import org.modelmapper.convention.MatchingStrategies;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
+
+import com.bms.api.customers.data.CustomerEntity;
+import com.bms.api.customers.service.shared.CustomerDto;
+import com.bms.app.data.UserEntity;
+import com.bms.app.model.UserModel;
+import com.bms.app.repository.UserRepository;
+
+public class UserServiceImpl implements UserService {
+	
+	@Autowired
+	private UserRepository userRepository;
+	
+	@Autowired
+	private BCryptPasswordEncoder bCryptPasswordEncoder;
+	
+	private static String random() {
+		long smallest=1000_0000_0000_0000L;
+		long largest=9999_0000_0000_0000l;
+		
+		String random=String.valueOf(ThreadLocalRandom.current().nextLong(smallest,largest+1));
+		return random;
+	}
+
+	@Override
+	public UserEntity CreateUser(UserModel userModel) {
+		userModel.setAccountNumber(random());
+		userModel.
+		
+		return null;
+		
+		
+//		customerDetails.setAccountNumber(random());
+//		customerDetails.setEnctryptedPassword(bCryptPasswordEncoder.encode(customerDetails.getPassword()));
+//		
+//		ModelMapper modelMapper=new ModelMapper();
+//		modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
+//		CustomerEntity customerEntity=modelMapper.map(customerDetails , CustomerEntity.class);
+//		//CustomerEntity customerEntity=modelMapper.map(customerDetails,customerEntity);
+//		//customerEntity.setEnctrypted_password("test");
+//		customerRepository.save(customerEntity);
+//		
+//		CustomerDto returnValue=modelMapper.map(customerEntity,CustomerDto.class);
+//		return returnValue;
+	}
+
+
+}

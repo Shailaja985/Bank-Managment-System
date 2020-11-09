@@ -1,0 +1,36 @@
+package com.bms.app;
+
+import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.bms.app.controller.LoanController;
+import com.bms.app.repository.LoanRepository;
+import com.bms.app.service.LoanServiceImpl;
+
+@SpringBootTest
+class BmsUserLoanApplicationTests {
+
+	@Test
+	void contextLoads() {
+	}
+	
+	@InjectMocks
+	LoanServiceImpl serviceImpl;
+	
+	@InjectMocks
+	LoanController loancont;
+
+	@Mock
+	LoanRepository loanRepository;
+
+	@Test
+	void testApplication() {
+		LoandetailsApplication.main(
+				new String[] { "--spring.main.web-environment=false", "--spring.autoconfigure.exclude=blahblahblah",
+
+				});
+	}
+
+}

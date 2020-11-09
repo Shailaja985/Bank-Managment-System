@@ -1,0 +1,13 @@
+package com.bms.app.model;
+
+public class UserModel {
+	private String firstName;
+	private String lastName;
+	private String email;
+	private String contactNum;
+	private String address;
+	private String userId;
+	private String accountNum;
+	private String password;
+
+}
