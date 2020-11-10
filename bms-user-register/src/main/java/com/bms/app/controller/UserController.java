@@ -11,10 +11,10 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import java.util.List;
+
 import java.util.Optional;
 
-import com.bms.app.BmsUserRegisterApplication;
+
 import com.bms.app.data.UserEntity;
 import com.bms.app.repository.UserRepository;
 import com.bms.app.service.UserService;
@@ -34,7 +34,7 @@ public class UserController {
 	@Autowired
 	private UserRepository userRepository;
 	
-	Logger log = LoggerFactory.getLogger(BmsUserRegisterApplication.class);
+	Logger log = LoggerFactory.getLogger(UserController.class);
 	
 	@GetMapping("/")
 	public String welcome() {

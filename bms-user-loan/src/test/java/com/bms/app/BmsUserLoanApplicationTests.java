@@ -1,5 +1,8 @@
 package com.bms.app;
 
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.mockito.Mockito.when;
+
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.mockito.InjectMocks;
@@ -10,6 +13,7 @@ import com.bms.app.controller.LoanController;
 import com.bms.app.model.LoanDetails;
 import com.bms.app.model.UserEntity;
 import com.bms.app.repository.LoanRepository;
+import com.bms.app.repository.LoanRepositoryImpl;
 import com.bms.app.service.LoanServiceImpl;
 
 @SpringBootTest(classes=BmsUserLoanApplication.class)
@@ -21,6 +25,11 @@ class BmsUserLoanApplicationTests {
 	
 	@InjectMocks
 	LoanServiceImpl loanServiceImpl;
+	
+	@InjectMocks
+	LoanRepositoryImpl loanRepositoryImpl;
+	
+	
 	
 	@InjectMocks
 	LoanController loanController;
@@ -43,26 +52,28 @@ class BmsUserLoanApplicationTests {
 		userDetails.setUserId(100);
 		userDetails.setAccountType("sb");
 		userDetails.setPanNumber("ABCDEF12345");
-		userDetails.setContactNumber("8978127720");
+		userDetails.setContactNumber("9999127820");
 		userDetails.setCounty("Ind");
-		userDetails.setState("AP");
-		userDetails.setEmail("a@gmail.com");
-		userDetails.setAddress("tenali");
-		userDetails.setPassword("Prafu@29");
-		userDetails.setUserName("prafulla");
+		userDetails.setState("KAR");
+		userDetails.setEmail("abc@gmail.com");
+		userDetails.setAddress("klnagar");
+		userDetails.setPassword("password");
+		userDetails.setUserName("shails");
 		userDetails.setAccountNumber(2213726038414410L);
 		
 		LoanDetails loanDetails = new LoanDetails();
 		loanDetails.setUserDetails(userDetails);
-		loanDetails.setDate("11-01-2020");
-		loanDetails.setDurationOfLoan("65");
-		loanDetails.setLoanAmount(200000L);
+		loanDetails.setDate("26-10-2019");
+		loanDetails.setDurationOfLoan("36");
+		loanDetails.setLoanAmount(400000L);
 		loanDetails.setLoanId(1);
-		loanDetails.setLoanType("personal");
-		loanDetails.setRateOfInterest("3.5");
-
-		LoanDetails loanDetails1 = new LoanDetails();
-		loanDetails1 = loanServiceImpl.applyLoan(loanDetails1);
+		loanDetails.setLoanType("educational");
+		loanDetails.setRateOfInterest("2.5");
+		//when(loanServiceImpl.save(userDetails)).thenReturn(userDetails);
+		assertThat(userDetails).isNotNull();
+		
+//		LoanDetails loanDetails1 = new LoanDetails();
+//		loanDetails1 = loanServiceImpl.applyLoan(loanDetails);
 	}
 	
 	@Test
@@ -93,5 +104,6 @@ class BmsUserLoanApplicationTests {
 		});
 
 	}
-
+	
+	
 }

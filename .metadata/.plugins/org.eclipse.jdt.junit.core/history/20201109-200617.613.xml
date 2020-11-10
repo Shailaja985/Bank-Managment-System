@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BmsUserLoginApplicationTests" project="bms-user-login" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="com.bms.app.BmsUserLoginApplicationTests" time="3.861" displayname="BmsUserLoginApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.bms.app.BmsUserLoginApplicationTests]">
+    <testcase name="testbreaker" classname="com.bms.app.BmsUserLoginApplicationTests" time="0.095" displayname="testbreaker()" uniqueid="[engine:junit-jupiter]/[class:com.bms.app.BmsUserLoginApplicationTests]/[method:testbreaker()]"/>
+    <testcase name="testset" classname="com.bms.app.BmsUserLoginApplicationTests" time="0.124" displayname="testset()" uniqueid="[engine:junit-jupiter]/[class:com.bms.app.BmsUserLoginApplicationTests]/[method:testset()]"/>
+    <testcase name="testregdcustfail" classname="com.bms.app.BmsUserLoginApplicationTests" time="0.019" displayname="testregdcustfail()" uniqueid="[engine:junit-jupiter]/[class:com.bms.app.BmsUserLoginApplicationTests]/[method:testregdcustfail()]"/>
+    <testcase name="testlogin" classname="com.bms.app.BmsUserLoginApplicationTests" time="0.013" displayname="testlogin()" uniqueid="[engine:junit-jupiter]/[class:com.bms.app.BmsUserLoginApplicationTests]/[method:testlogin()]"/>
+    <testcase name="testregdcustfail2" classname="com.bms.app.BmsUserLoginApplicationTests" time="0.014" displayname="testregdcustfail2()" uniqueid="[engine:junit-jupiter]/[class:com.bms.app.BmsUserLoginApplicationTests]/[method:testregdcustfail2()]"/>
+    <testcase name="testApplication" classname="com.bms.app.BmsUserLoginApplicationTests" time="3.596" displayname="testApplication()" uniqueid="[engine:junit-jupiter]/[class:com.bms.app.BmsUserLoginApplicationTests]/[method:testApplication()]"/>
+  </testsuite>
+</testrun>

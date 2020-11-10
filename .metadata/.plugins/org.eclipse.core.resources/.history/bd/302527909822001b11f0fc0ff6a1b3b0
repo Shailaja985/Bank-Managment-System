@@ -1,0 +1,164 @@
+package com.bms.app;
+
+import static org.assertj.core.api.Assertions.assertThat;
+import static org.mockito.Mockito.when;
+
+import org.junit.jupiter.api.Test;
+import org.mockito.InjectMocks;
+import org.mockito.Mock;
+import org.springframework.boot.test.context.SpringBootTest;
+
+import com.bms.app.controller.LoginController;
+import com.bms.app.controller.UserController;
+import com.bms.app.data.UserEntity;
+import com.bms.app.model.LoginModel;
+import com.bms.app.repository.LoginRepository;
+import com.bms.app.repository.UserRepository;
+import com.bms.app.repository.UserRepositoryImpl;
+import com.bms.app.service.LoginServiceImpl;
+import com.bms.app.service.UserServiceImpl;
+import com.bms.app.shared.UserDto;
+import org.junit.jupiter.api.Assertions;
+
+@SpringBootTest(classes = BmsUserLoginApplication.class)
+class BmsUserLoginApplicationTests {
+
+	@InjectMocks
+	UserServiceImpl serviceImpl;
+	
+	@InjectMocks
+	LoginServiceImpl loginserviceImpl;
+	
+	
+	
+	@InjectMocks
+	UserController userController;
+	
+	@InjectMocks
+	LoginController loginController;
+
+	@Mock
+	UserRepositoryImpl userRepositoryImpl;
+	
+	@Mock
+	UserRepository userRepository;
+	
+	@Mock
+	LoginRepository loginRepository;
+	
+	@Test
+	void testlogin() {
+		UserEntity userEntity=new UserEntity(101,"shails","klnagar","kar","Ind","shails@gmail.com",
+			       "7987dhf","99999999","29/01/2019","self",1234567890123456L,"password1");
+		UserDto userDto=new UserDto("shails","klnagar","kar","Ind","shails@gmail.com",
+		       "7987dhf","99999999","29/01/2019","self","password1");
+		when(userRepository.save(userEntity)).thenReturn(userEntity);
+		LoginModel loginModel = new LoginModel("shails","password1");	
+	}
+	
+	@Test
+	 void testregdcustfail() {
+		UserEntity userEntity = new UserEntity();
+		UserDto userDto=new UserDto("shails","klnagar","kar","Ind","shails@gmail.com",
+			       "7987dhf","99999999","29/01/2019","self","password1");
+		when(userRepositoryImpl.save(userEntity)).thenReturn(userEntity);
+
+		UserEntity userEntity1 = serviceImpl.CreateUser(userDto);
+		assertThat(userEntity1).isNotNull();
+
+	}
+	
+	@Test
+	   void testregdcustfail2() {
+		UserEntity userEntity = new UserEntity();
+		UserDto userDto = new UserDto();
+		when(userRepositoryImpl.save(userEntity)).thenReturn(userEntity);
+
+		UserEntity userEntity1 = serviceImpl.CreateUser(userDto);
+		assertThat(userEntity1).isNotNull();
+
+		}
+//	@Test
+//	void testlogin1() {
+//		UserEntity userEntity=new UserEntity(101,"anna","klnagar","kar","Ind","shails@gmail.com",
+//			       "7987dhf","99999999","29/01/2019","self",1234567890123456L,"password1");
+//		UserDto userDto=new UserDto("anna","klnagar","kar","Ind","shails@gmail.com",
+//		       "7987dhf","99999999","29/01/2019","savings","password1234");
+//		when(userRepository.save(userEntity)).thenReturn(userEntity);
+//		LoginModel loginModel = new LoginModel("shails","password1234");	
+//	}
+	
+	
+	@Test
+	void testbreaker() {
+		UserEntity userEntity=new UserEntity(101,"shails","klnagar","kar","Ind","shails@gmail.com",
+			       "7987dhf","99999999","29/01/2019","self",1234567890123456L,"password1");
+		UserDto userDto=new UserDto("shails","klnagar","kar","Ind","shails@gmail.com",
+		       "7987dhf","99999999","29/01/2019","self","password1");
+		when(userRepository.save(userEntity)).thenReturn(userEntity);
+		LoginModel login = new LoginModel("shails","password1");
+		UserEntity re = loginController.breaker(login);
+		//assertThat(re).isNotNull();
+		
+	}
+	
+	@Test
+	void testset() {
+		UserEntity userEntity= new UserEntity();
+		userEntity.setUserId(100);
+		userEntity.setAccountType("sb");
+		userEntity.setPanNumber("ABCDEF12345");
+		userEntity.setContactNumber("8978127720");
+		userEntity.setCounty("Ind");
+		userEntity.setState("AP");
+		userEntity.setEmail("abc@gmail.com");
+		userEntity.setAddress("tenali");
+		userEntity.setPassword("Prafu@29");
+		userEntity.setUserName("prafulla");
+		userEntity.setAccountNumber(2213726038414410L);
+		
+		UserDto userDto = new UserDto();
+		userDto.setAccountType("sb");
+		userDto.setPanNumber("ABCDEF12345");
+		userDto.setContactNum("8978127720");
+		userDto.setCounty("Ind");
+		userDto.setState("AP");
+		userDto.setEmail("abc@gmail.com");
+		userDto.setAddress("tenali");
+		userDto.setPassword("Prafu@29");
+		userDto.setUserName("prafulla");
+		
+		
+		when(userRepositoImpl.save(userDto)).thenReturn(userDto);
+		UserEntity re = new UserEntity();
+		
+
+
+		//ApiResponse re = serviceImpl.signUp(s1);
+		assertThat(re).isNotNull();
+		
+	}
+	
+//	@Test
+//	void testbreaker1() {
+//		UserEntity userEntity=new UserEntity(101,"shails","klnagar","kar","Ind","shails@gmail.com",
+//			       "7987dhf","99999999","29/01/2019","self",1234567890123456L,"password1");
+//		UserDto userDto=new UserDto("shails","klnagar","kar","Ind","shails@gmail.com",
+//		       "7987dhf","99999999","29/01/2019","self","password1234");
+//		when(userRepository.save(userEntity)).thenReturn(userEntity);
+//		LoginModel login = new LoginModel("anna","password1234");
+//		UserEntity re = loginController.breaker(login);
+//		//assertThat(re).isNotNull();
+//		
+//	}
+	
+	@Test
+    void testApplication()
+    {
+		BmsUserLoginApplication.main(new String[]{
+                "--spring.main.web-environment=false",
+                "--spring.autoconfigure.exclude=blahblahblah",
+               
+        });
+    }
+}

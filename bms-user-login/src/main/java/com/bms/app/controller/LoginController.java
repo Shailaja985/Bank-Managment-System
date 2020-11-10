@@ -8,7 +8,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bms.app.BmsUserLoginApplication;
+
 import com.bms.app.data.UserEntity;
 import com.bms.app.model.LoginModel;
 import com.bms.app.service.LoginService;
@@ -20,7 +20,7 @@ import io.swagger.annotations.ApiOperation;
 @RequestMapping("/v1")
 public class LoginController {
 	
-	Logger log = LoggerFactory.getLogger(BmsUserLoginApplication.class);
+	Logger log = LoggerFactory.getLogger(LoginController.class);
 	
 	@Autowired
 	private LoginService loginService;

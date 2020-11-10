@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BmsUserLoginApplicationTests" project="bms-user-login" tests="4" started="4" failures="0" errors="0" ignored="0">
+  <testsuite name="com.bms.app.BmsUserLoginApplicationTests" time="2.859" displayname="BmsUserLoginApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.bms.app.BmsUserLoginApplicationTests]">
+    <testcase name="testbreaker" classname="com.bms.app.BmsUserLoginApplicationTests" time="0.0" displayname="testbreaker()" uniqueid="[engine:junit-jupiter]/[class:com.bms.app.BmsUserLoginApplicationTests]/[method:testbreaker()]"/>
+    <testcase name="testlogin1" classname="com.bms.app.BmsUserLoginApplicationTests" time="0.0" displayname="testlogin1()" uniqueid="[engine:junit-jupiter]/[class:com.bms.app.BmsUserLoginApplicationTests]/[method:testlogin1()]"/>
+    <testcase name="testlogin" classname="com.bms.app.BmsUserLoginApplicationTests" time="0.001" displayname="testlogin()" uniqueid="[engine:junit-jupiter]/[class:com.bms.app.BmsUserLoginApplicationTests]/[method:testlogin()]"/>
+    <testcase name="testApplication" classname="com.bms.app.BmsUserLoginApplicationTests" time="2.858" displayname="testApplication()" uniqueid="[engine:junit-jupiter]/[class:com.bms.app.BmsUserLoginApplicationTests]/[method:testApplication()]"/>
+  </testsuite>
+</testrun>

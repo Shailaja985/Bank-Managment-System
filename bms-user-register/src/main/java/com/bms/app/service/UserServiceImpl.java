@@ -1,6 +1,6 @@
 package com.bms.app.service;
 
-import java.util.concurrent.ThreadLocalRandom;
+
 
 import javax.transaction.Transactional;
 
@@ -26,18 +26,9 @@ public class UserServiceImpl implements UserService {
 	@Override
 	public UserEntity CreateUser(UserDto userDto) {
 		
-		
 		UserEntity  userEntity = new UserEntity();
-		//BCryptPasswordEncoder passwordEncoder = new BCryptPasswordEncoder();
-		//signUpDto.setPassword(passwordEncoder.encode(signUpDto.getPassword()));
 		BeanUtils.copyProperties(userDto, userEntity);
-//		userDto.setEncryptedPassword(bCryptPasswordEncoder.encode(userDto.getPassword()));
-//		
-//		ModelMapper modelMapper=new ModelMapper();
-//		modelMapper.getConfiguration().setMatchingStrategy(MatchingStrategies.STRICT);
-//		UserEntity userEntity=modelMapper.map(userDto , UserEntity.class);
 		userRepositoryImpl.save(userEntity);
-		
 		return userEntity;
 
 	}

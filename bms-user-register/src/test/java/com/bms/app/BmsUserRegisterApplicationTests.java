@@ -24,8 +24,6 @@ class BmsUserRegisterApplicationTests {
 	@InjectMocks
 	UserServiceImpl userServiceImpl;
 	
-	
-	
 	@InjectMocks
 	UserController userController;
 
@@ -66,8 +64,6 @@ class BmsUserRegisterApplicationTests {
 
 		UserEntity re = userServiceImpl.CreateUser(userDto);
 		assertThat(re).isNotNull();
-
-
 		}
 	
 	@Test
@@ -121,6 +117,7 @@ class BmsUserRegisterApplicationTests {
 			       "7987dhf","99999999","29/01/2019","self",1234567890123456L,"password1");
 		UserDto userDto =null;
 		when(userRepositoryImpl.save(userEntity)).thenReturn(userEntity);
+		//assertThat(userEntity).isNotNull();
 	}
 	
 	@Test
@@ -128,10 +125,8 @@ class BmsUserRegisterApplicationTests {
 		UserEntity userEntity=null;
 		UserDto userDto =null;
 		when(userRepositoryImpl.save(userEntity)).thenReturn(userEntity);
+		assertThat(userEntity).isNull();
 	}
-	
-	
-	
 	
 	@Test
 	void testset() {
@@ -164,11 +159,8 @@ class BmsUserRegisterApplicationTests {
 
 		when(userRepositoryImpl.save(userEntity)).thenReturn(userEntity);
 		assertThat(userEntity).isNotNull();
-		
 	}
-	
-	
-	
+
 	@Test
 	 void testUserById() {
 		UserEntity userEntity=new UserEntity(101,"shails","klnagar","kar","Ind","shails@gmail.com",
@@ -182,6 +174,7 @@ class BmsUserRegisterApplicationTests {
 			
 			e.printStackTrace();
 		}
+		assertThat(userEntity).isNotNull();
 	}
 	
 	@Test
@@ -197,19 +190,9 @@ class BmsUserRegisterApplicationTests {
 			
 			userController.getidbreaker(123);
 		}
+		assertThat(userEntity).isNotNull();	
 	}
 	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	/**
 	 @Test
     void testApplication()
     {
@@ -219,7 +202,7 @@ class BmsUserRegisterApplicationTests {
                
         });
     }
-	 **/
+	 
 	
 	
 	

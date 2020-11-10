@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BmsUserLoanApplicationTests" project="bms-user-loan" tests="5" started="5" failures="0" errors="0" ignored="0">
+  <testsuite name="com.bms.app.BmsUserLoanApplicationTests" time="2.998" displayname="BmsUserLoanApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.bms.app.BmsUserLoanApplicationTests]">
+    <testcase name="testbreaker" classname="com.bms.app.BmsUserLoanApplicationTests" time="0.059" displayname="testbreaker()" uniqueid="[engine:junit-jupiter]/[class:com.bms.app.BmsUserLoanApplicationTests]/[method:testbreaker()]"/>
+    <testcase name="testbreaker1" classname="com.bms.app.BmsUserLoanApplicationTests" time="0.008" displayname="testbreaker1()" uniqueid="[engine:junit-jupiter]/[class:com.bms.app.BmsUserLoanApplicationTests]/[method:testbreaker1()]"/>
+    <testcase name="testbreaker2" classname="com.bms.app.BmsUserLoanApplicationTests" time="0.017" displayname="testbreaker2()" uniqueid="[engine:junit-jupiter]/[class:com.bms.app.BmsUserLoanApplicationTests]/[method:testbreaker2()]"/>
+    <testcase name="testApplication" classname="com.bms.app.BmsUserLoanApplicationTests" time="2.904" displayname="testApplication()" uniqueid="[engine:junit-jupiter]/[class:com.bms.app.BmsUserLoanApplicationTests]/[method:testApplication()]"/>
+    <testcase name="contextLoads" classname="com.bms.app.BmsUserLoanApplicationTests" time="0.009" displayname="contextLoads()" uniqueid="[engine:junit-jupiter]/[class:com.bms.app.BmsUserLoanApplicationTests]/[method:contextLoads()]"/>
+  </testsuite>
+</testrun>

@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.bms.app.BmsUserLoanApplication;
+
 import com.bms.app.model.LoanDetails;
 import com.bms.app.service.LoanService;
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
@@ -23,7 +23,7 @@ public class LoanController {
 	private LoanService loanService;
 	
 	
-	public static final Logger logger = LoggerFactory.getLogger(BmsUserLoanApplication.class);
+	public static final Logger logger = LoggerFactory.getLogger(LoanController.class);
 	
 	@HystrixCommand(fallbackMethod = "breaker")
 	@PostMapping("/applyLoan")

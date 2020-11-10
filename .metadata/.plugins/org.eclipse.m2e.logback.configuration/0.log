@@ -3878,3 +3878,502 @@ org.eclipse.core.runtime.CoreException: Could not resolve artifact org.springfra
 2020-11-09 17:56:33,394 [Worker-621: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
 2020-11-09 17:56:33,407 [Worker-621: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2020-11-09 17:56:33,407 [Worker-621: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 19:03:16,577 [Worker-653: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:03:16,578 [Worker-653: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:03:16,578 [Worker-653: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:03:16,581 [Worker-653: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:03:16,589 [Worker-653: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-register\src\test\resources
+2020-11-09 19:04:14,822 [Worker-653: Launching BmsUserRegisterApplicationTests.testUserById] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:04:14,840 [Worker-653: Launching BmsUserRegisterApplicationTests.testUserById] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:04:14,853 [Worker-653: Launching BmsUserRegisterApplicationTests.testUserById] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:04:14,867 [Worker-653: Launching BmsUserRegisterApplicationTests.testUserById] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:04:14,868 [Worker-653: Launching BmsUserRegisterApplicationTests.testUserById] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-register\src\test\resources
+2020-11-09 19:05:20,791 [Worker-662: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:05:20,792 [Worker-662: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:05:20,802 [Worker-662: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:05:20,812 [Worker-662: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:05:20,819 [Worker-662: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-register\src\test\resources
+2020-11-09 19:06:09,625 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:06:09,638 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:06:09,647 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:06:09,658 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:06:09,658 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-register\src\test\resources
+2020-11-09 19:07:13,897 [Worker-660: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:07:13,897 [Worker-660: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:07:13,898 [Worker-660: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:07:13,900 [Worker-660: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:07:13,900 [Worker-660: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-register\src\test\resources
+2020-11-09 19:07:57,009 [Worker-660: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:07:57,009 [Worker-660: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:07:57,009 [Worker-660: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:07:57,020 [Worker-660: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:07:57,021 [Worker-660: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-register\src\test\resources
+2020-11-09 19:10:18,001 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:10:18,001 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:10:18,012 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:10:18,024 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:10:18,032 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-register\src\test\resources
+2020-11-09 19:11:15,138 [Worker-658: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:11:15,149 [Worker-658: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:11:15,156 [Worker-658: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:11:15,170 [Worker-658: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:11:15,170 [Worker-658: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-register\src\test\resources
+2020-11-09 19:12:09,241 [Worker-662: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:12:09,242 [Worker-662: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:12:09,242 [Worker-662: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:12:09,243 [Worker-662: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:12:09,252 [Worker-662: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-register\src\test\resources
+2020-11-09 19:13:22,900 [Worker-656: Launching BmsUserRegisterApplicationTests] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:13:22,908 [Worker-656: Launching BmsUserRegisterApplicationTests] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:13:22,915 [Worker-656: Launching BmsUserRegisterApplicationTests] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:13:22,924 [Worker-656: Launching BmsUserRegisterApplicationTests] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:13:22,924 [Worker-656: Launching BmsUserRegisterApplicationTests] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-register\src\test\resources
+2020-11-09 19:16:44,578 [Worker-653: Launching BmsUserLoginApplicationTests] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier null to /bms-user-register/target/classes
+2020-11-09 19:16:45,173 [Worker-653: Launching BmsUserLoginApplicationTests] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier null to /bms-user-register/target/classes
+2020-11-09 19:23:13,169 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:23:13,179 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:23:13,188 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:23:13,190 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:23:13,199 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 19:23:24,606 [Worker-655: Launching BmsUserLoginApplicationTests.testApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier null to /bms-user-register/target/classes
+2020-11-09 19:23:25,227 [Worker-655: Launching BmsUserLoginApplicationTests.testApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier null to /bms-user-register/target/classes
+2020-11-09 19:25:22,095 [Worker-658: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:25:22,104 [Worker-658: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:25:22,113 [Worker-658: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:25:22,122 [Worker-658: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:25:22,122 [Worker-658: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 19:25:29,171 [Worker-655: Launching BmsUserLoginApplicationTests.testlogin1] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier null to /bms-user-register/target/classes
+2020-11-09 19:25:29,781 [Worker-655: Launching BmsUserLoginApplicationTests.testlogin1] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier null to /bms-user-register/target/classes
+2020-11-09 19:26:17,155 [Worker-667: Launching BmsUserLoginApplicationTests] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier null to /bms-user-register/target/classes
+2020-11-09 19:26:17,877 [Worker-667: Launching BmsUserLoginApplicationTests] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier null to /bms-user-register/target/classes
+2020-11-09 19:31:04,626 [Worker-672: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:31:04,627 [Worker-672: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:31:04,641 [Worker-672: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:31:04,656 [Worker-672: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:31:04,669 [Worker-672: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 19:31:25,365 [Worker-655: Launching BmsUserLoginApplicationTests] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier null to /bms-user-register/target/classes
+2020-11-09 19:31:26,080 [Worker-655: Launching BmsUserLoginApplicationTests] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier null to /bms-user-register/target/classes
+2020-11-09 19:33:38,212 [Worker-674: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:33:38,222 [Worker-674: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:33:38,228 [Worker-674: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:33:38,237 [Worker-674: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:33:38,237 [Worker-674: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 19:34:15,894 [Worker-675: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:34:15,895 [Worker-675: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:34:15,895 [Worker-675: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:34:15,896 [Worker-675: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:34:15,904 [Worker-675: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 19:34:39,241 [Worker-673: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:34:39,253 [Worker-673: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:34:39,259 [Worker-673: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:34:39,270 [Worker-673: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:34:39,270 [Worker-673: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 19:34:50,003 [Worker-655: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:34:50,003 [Worker-655: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:34:50,014 [Worker-655: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:34:50,025 [Worker-655: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:34:50,032 [Worker-655: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 19:36:19,958 [Worker-666: Launching BmsUserLoginApplicationTests.testlogin3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:36:19,974 [Worker-666: Launching BmsUserLoginApplicationTests.testlogin3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:36:19,982 [Worker-666: Launching BmsUserLoginApplicationTests.testlogin3] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:36:19,991 [Worker-666: Launching BmsUserLoginApplicationTests.testlogin3] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:36:19,992 [Worker-666: Launching BmsUserLoginApplicationTests.testlogin3] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 19:36:20,139 [Worker-666: Launching BmsUserLoginApplicationTests.testlogin3] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier null to /bms-user-register/target/classes
+2020-11-09 19:36:20,762 [Worker-666: Launching BmsUserLoginApplicationTests.testlogin3] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier null to /bms-user-register/target/classes
+2020-11-09 19:39:07,735 [Worker-675: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:39:07,735 [Worker-675: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:39:07,735 [Worker-675: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:39:07,737 [Worker-675: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:39:07,737 [Worker-675: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 19:39:33,257 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:39:33,268 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:39:33,268 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:39:33,284 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:39:33,285 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 19:39:43,354 [Worker-674: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:39:43,355 [Worker-674: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:39:43,355 [Worker-674: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:39:43,357 [Worker-674: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:39:43,367 [Worker-674: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 19:39:54,246 [Worker-675: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:39:54,255 [Worker-675: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:39:54,264 [Worker-675: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:39:54,274 [Worker-675: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:39:54,274 [Worker-675: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 19:40:15,503 [Worker-655: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:40:15,504 [Worker-655: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:40:15,511 [Worker-655: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:40:15,519 [Worker-655: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:40:15,526 [Worker-655: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 19:40:23,875 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:40:23,884 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:40:23,899 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:40:23,913 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:40:23,913 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 19:40:47,445 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:40:47,446 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:40:47,446 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:40:47,447 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:40:47,448 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 19:41:02,098 [Worker-674: Launching BmsUserLoginApplicationTests.testregdcustfail] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier null to /bms-user-register/target/classes
+2020-11-09 19:41:02,723 [Worker-674: Launching BmsUserLoginApplicationTests.testregdcustfail] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier null to /bms-user-register/target/classes
+2020-11-09 19:43:26,990 [Worker-655: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:43:26,999 [Worker-655: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:43:27,000 [Worker-655: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:43:27,010 [Worker-655: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:43:27,011 [Worker-655: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 19:43:49,601 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:43:49,601 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:43:49,601 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:43:49,602 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:43:49,610 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 19:44:15,242 [Worker-673: Launching BmsUserLoginApplicationTests] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier null to /bms-user-register/target/classes
+2020-11-09 19:44:15,852 [Worker-673: Launching BmsUserLoginApplicationTests] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier null to /bms-user-register/target/classes
+2020-11-09 19:46:33,042 [Worker-666: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:46:33,050 [Worker-666: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:46:33,058 [Worker-666: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:46:33,067 [Worker-666: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:46:33,067 [Worker-666: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 19:46:40,111 [Worker-676: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:46:40,112 [Worker-676: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:46:40,112 [Worker-676: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:46:40,113 [Worker-676: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:46:40,113 [Worker-676: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 19:46:55,977 [Worker-655: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:46:55,977 [Worker-655: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:46:55,978 [Worker-655: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:46:55,989 [Worker-655: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:46:55,989 [Worker-655: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 19:47:21,908 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:47:21,908 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:47:21,922 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:47:21,933 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:47:21,940 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 19:47:38,228 [Worker-675: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:47:38,241 [Worker-675: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:47:38,248 [Worker-675: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:47:38,258 [Worker-675: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:47:38,259 [Worker-675: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 19:47:53,737 [Worker-673: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:47:53,737 [Worker-673: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:47:53,737 [Worker-673: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:47:53,738 [Worker-673: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:47:53,752 [Worker-673: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 19:48:05,876 [Worker-676: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:48:05,884 [Worker-676: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:48:05,891 [Worker-676: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:48:05,902 [Worker-676: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:48:05,902 [Worker-676: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 19:48:28,176 [Worker-675: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:48:28,176 [Worker-675: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:48:28,188 [Worker-675: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:48:28,203 [Worker-675: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:48:28,219 [Worker-675: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 19:48:46,515 [Worker-676: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:48:46,526 [Worker-676: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:48:46,533 [Worker-676: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:48:46,545 [Worker-676: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:48:46,545 [Worker-676: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 19:49:07,114 [Worker-676: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:49:07,114 [Worker-676: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:49:07,114 [Worker-676: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:49:07,115 [Worker-676: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:49:07,115 [Worker-676: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 19:59:29,687 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:59:29,687 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:59:29,687 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 19:59:29,702 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 19:59:29,702 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 20:00:34,278 [Worker-677: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:00:34,279 [Worker-677: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:00:34,289 [Worker-677: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:00:34,299 [Worker-677: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:00:34,306 [Worker-677: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 20:02:42,741 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:02:42,749 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:02:42,758 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:02:42,767 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:02:42,767 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 20:02:57,547 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:02:57,547 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:02:57,547 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:02:57,549 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:02:57,561 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 20:03:02,268 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:03:02,276 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:03:02,283 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:03:02,291 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:03:02,291 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 20:03:24,505 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:03:24,505 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:03:24,514 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:03:24,523 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:03:24,530 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 20:03:30,231 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:03:30,240 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:03:30,250 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:03:30,260 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:03:30,260 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 20:03:33,699 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:03:33,699 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:03:33,699 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:03:33,701 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:03:33,701 [Worker-667: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 20:03:41,627 [Worker-680: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:03:41,627 [Worker-680: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:03:41,627 [Worker-680: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:03:41,636 [Worker-680: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:03:41,636 [Worker-680: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 20:04:15,461 [Worker-680: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:04:15,461 [Worker-680: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:04:15,471 [Worker-680: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:04:15,480 [Worker-680: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:04:15,487 [Worker-680: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 20:04:33,531 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:04:33,540 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:04:33,548 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:04:33,558 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:04:33,558 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 20:05:05,760 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:05:05,761 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:05:05,761 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:05:05,763 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:05:05,779 [Worker-657: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 20:05:24,804 [Worker-657: Launching BmsUserLoginApplicationTests.testset] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier null to /bms-user-register/target/classes
+2020-11-09 20:05:25,388 [Worker-657: Launching BmsUserLoginApplicationTests.testset] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier null to /bms-user-register/target/classes
+2020-11-09 20:06:00,673 [Worker-657: Launching BmsUserLoginApplicationTests] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier null to /bms-user-register/target/classes
+2020-11-09 20:06:01,254 [Worker-657: Launching BmsUserLoginApplicationTests] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier null to /bms-user-register/target/classes
+2020-11-09 20:08:53,164 [Worker-682: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:08:53,171 [Worker-682: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 20:08:53,180 [Worker-682: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 20:08:53,188 [Worker-682: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:08:53,189 [Worker-682: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 20:10:52,623 [Worker-678: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:10:52,624 [Worker-678: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 20:10:52,633 [Worker-678: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 20:10:52,641 [Worker-678: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:10:52,647 [Worker-678: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-login\src\test\resources
+2020-11-09 20:12:06,495 [Worker-683: Launching bms-user-login] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier null to /bms-user-register/target/classes
+2020-11-09 20:12:07,094 [Worker-683: Launching bms-user-login] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier null to /bms-user-register/target/classes
+2020-11-09 20:14:10,967 [Worker-677: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:14:10,977 [Worker-677: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 20:14:10,989 [Worker-677: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 20:14:11,000 [Worker-677: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:14:11,000 [Worker-677: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-register\src\test\resources
+2020-11-09 20:15:29,373 [Worker-678: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:15:29,373 [Worker-678: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 20:15:29,390 [Worker-678: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 20:15:29,400 [Worker-678: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:15:29,408 [Worker-678: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-register\src\test\resources
+2020-11-09 20:15:45,035 [Worker-681: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:15:45,045 [Worker-681: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 20:15:45,054 [Worker-681: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 20:15:45,063 [Worker-681: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:15:45,063 [Worker-681: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-register\src\test\resources
+2020-11-09 20:17:10,287 [Worker-677: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:17:10,287 [Worker-677: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 20:17:10,291 [Worker-677: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 20:17:10,292 [Worker-677: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:17:10,292 [Worker-677: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-register\src\test\resources
+2020-11-09 20:18:09,707 [Worker-678: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:18:09,707 [Worker-678: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 20:18:09,710 [Worker-678: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 20:18:09,718 [Worker-678: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:18:09,718 [Worker-678: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-register\src\test\resources
+2020-11-09 20:18:17,503 [Worker-681: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:18:17,504 [Worker-681: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 20:18:17,519 [Worker-681: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 20:18:17,527 [Worker-681: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:18:17,542 [Worker-681: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-register\src\test\resources
+2020-11-09 20:18:41,776 [Worker-681: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:18:41,792 [Worker-681: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 20:18:41,802 [Worker-681: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 20:18:41,818 [Worker-681: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:18:41,818 [Worker-681: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-register\src\test\resources
+2020-11-09 20:20:11,251 [Worker-686: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:20:11,252 [Worker-686: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 20:20:11,256 [Worker-686: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 20:20:11,260 [Worker-686: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:20:11,269 [Worker-686: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-register\src\test\resources
+2020-11-09 20:20:55,546 [Worker-682: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:20:55,556 [Worker-682: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 20:20:55,570 [Worker-682: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 20:20:55,582 [Worker-682: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:20:55,582 [Worker-682: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-register\src\test\resources
+2020-11-09 20:21:46,821 [Worker-678: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:21:46,822 [Worker-678: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 20:21:46,839 [Worker-678: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 20:21:46,847 [Worker-678: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:21:46,853 [Worker-678: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-register\src\test\resources
+2020-11-09 20:31:45,669 [Worker-678: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:31:45,683 [Worker-678: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 20:31:45,694 [Worker-678: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 20:31:45,705 [Worker-678: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:31:45,706 [Worker-678: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 20:32:01,646 [Worker-689: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:32:01,647 [Worker-689: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 20:32:01,648 [Worker-689: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 20:32:01,649 [Worker-689: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:32:01,649 [Worker-689: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 20:34:32,297 [Worker-693: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:34:32,297 [Worker-693: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:34:32,298 [Worker-693: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:34:32,315 [Worker-693: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:34:32,315 [Worker-693: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 20:34:42,520 [Worker-692: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:34:42,521 [Worker-692: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:34:42,528 [Worker-692: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:34:42,538 [Worker-692: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:34:42,544 [Worker-692: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 20:38:35,783 [Worker-695: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:38:35,794 [Worker-695: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:38:35,802 [Worker-695: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:38:35,812 [Worker-695: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:38:35,812 [Worker-695: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 20:53:37,424 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:53:37,425 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:53:37,425 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:53:37,426 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:53:37,434 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 20:53:58,636 [Worker-702: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:53:58,646 [Worker-702: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:53:58,654 [Worker-702: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:53:58,665 [Worker-702: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:53:58,665 [Worker-702: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 20:54:02,675 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:54:02,676 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:54:02,686 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:54:02,696 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:54:02,703 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 20:59:29,356 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:59:29,366 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:59:29,373 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 20:59:29,383 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 20:59:29,383 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 21:00:22,630 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 21:00:22,631 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:00:22,631 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:00:22,634 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 21:00:22,634 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 21:00:46,611 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 21:00:46,611 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:00:46,611 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:00:46,620 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 21:00:46,620 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 21:03:46,809 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 21:03:46,810 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:03:46,818 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:03:46,827 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 21:03:46,837 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 21:04:12,438 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 21:04:12,447 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:04:12,458 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:04:12,466 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 21:04:12,466 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 21:04:19,223 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 21:04:19,223 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:04:19,223 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:04:19,224 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 21:04:19,234 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 21:06:45,010 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 21:06:45,024 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:06:45,032 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:06:45,041 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 21:06:45,041 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 21:11:32,112 [Worker-706: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 21:11:32,113 [Worker-706: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:11:32,128 [Worker-706: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:11:32,141 [Worker-706: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 21:11:32,147 [Worker-706: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 21:13:18,358 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 21:13:18,367 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:13:18,373 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:13:18,382 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 21:13:18,382 [Worker-703: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 21:14:27,701 [Worker-710: Launching BmsUserLoanApplicationTests.testloan] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 21:14:27,701 [Worker-710: Launching BmsUserLoanApplicationTests.testloan] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:14:27,701 [Worker-710: Launching BmsUserLoanApplicationTests.testloan] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:14:27,703 [Worker-710: Launching BmsUserLoanApplicationTests.testloan] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 21:14:27,703 [Worker-710: Launching BmsUserLoanApplicationTests.testloan] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 21:18:23,504 [Worker-715: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 21:18:23,504 [Worker-715: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:18:23,505 [Worker-715: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:18:23,515 [Worker-715: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 21:18:23,515 [Worker-715: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 21:23:48,475 [Worker-716: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 21:23:48,475 [Worker-716: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:23:48,482 [Worker-716: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:23:48,489 [Worker-716: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 21:23:48,501 [Worker-716: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 21:24:07,291 [Worker-719: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 21:24:07,302 [Worker-719: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:24:07,311 [Worker-719: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:24:07,320 [Worker-719: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 21:24:07,320 [Worker-719: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 21:24:25,420 [Worker-719: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 21:24:25,421 [Worker-719: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:24:25,421 [Worker-719: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:24:25,424 [Worker-719: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 21:24:25,435 [Worker-719: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 21:26:31,290 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 21:26:31,305 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:26:31,313 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 21:26:31,322 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 21:26:31,322 [Worker-700: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 22:01:45,800 [Worker-721: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 22:01:45,801 [Worker-721: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 22:01:45,808 [Worker-721: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 22:01:45,817 [Worker-721: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 22:01:45,825 [Worker-721: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 22:02:25,723 [Worker-723: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 22:02:25,733 [Worker-723: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 22:02:25,739 [Worker-723: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 22:02:25,748 [Worker-723: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 22:02:25,748 [Worker-723: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 22:03:54,309 [Worker-725: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 22:03:54,309 [Worker-725: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 22:03:54,309 [Worker-725: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 22:03:54,311 [Worker-725: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 22:03:54,311 [Worker-725: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 22:14:44,616 [Worker-727: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 22:14:44,617 [Worker-727: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 22:14:44,617 [Worker-727: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 22:14:44,632 [Worker-727: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 22:14:44,632 [Worker-727: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 22:14:55,904 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 22:14:55,904 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 22:14:55,917 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 0 resource
+2020-11-09 22:14:55,930 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 22:14:55,936 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 22:17:02,622 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 22:17:02,634 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 22:17:02,648 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 22:17:02,662 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 22:17:02,663 [Worker-729: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 22:17:40,327 [Worker-732: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 22:17:40,328 [Worker-732: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 22:17:40,329 [Worker-732: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 22:17:40,331 [Worker-732: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 22:17:40,338 [Worker-732: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 22:18:18,786 [Worker-732: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 22:18:18,794 [Worker-732: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 22:18:18,803 [Worker-732: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 22:18:18,812 [Worker-732: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 22:18:18,812 [Worker-732: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 22:19:23,974 [Worker-731: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 22:19:23,975 [Worker-731: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 22:19:23,984 [Worker-731: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 22:19:23,992 [Worker-731: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 22:19:23,998 [Worker-731: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 22:19:30,729 [Worker-733: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 22:19:30,739 [Worker-733: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 22:19:30,752 [Worker-733: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Copying 1 resource
+2020-11-09 22:19:30,762 [Worker-733: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2020-11-09 22:19:30,762 [Worker-733: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\javacloudmc463\Documents\bankapp\bms-user-loan\src\test\resources
+2020-11-09 22:24:25,019 [Worker-728: Launching bms-user-login - BmsUserLoginApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier null to /bms-user-register/target/classes
+2020-11-09 22:24:25,475 [Worker-728: Launching bms-user-login - BmsUserLoginApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier null to /bms-user-register/target/classes
+2020-11-09 22:24:25,904 [Worker-728: Launching bms-user-login - BmsUserLoginApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier null to /bms-user-register/target/classes
+2020-11-09 22:25:27,093 [Worker-729: Check for devtools] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier  to /bms-user-register/target/classes
+2020-11-09 22:25:39,886 [Worker-732: Launching bms-user-update - BmsUserUpdateApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier null to /bms-user-register/target/classes
+2020-11-09 22:25:40,336 [Worker-732: Launching bms-user-update - BmsUserUpdateApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier null to /bms-user-register/target/classes
+2020-11-09 22:25:40,748 [Worker-732: Launching bms-user-update - BmsUserUpdateApplication] INFO  o.e.m.c.i.p.WorkspaceClassifierResolverManager - Resolving P/bms-user-register: com.bms.app:bms-user-register:0.0.1-SNAPSHOT with classifier null to /bms-user-register/target/classes

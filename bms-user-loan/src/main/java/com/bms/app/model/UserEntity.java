@@ -5,7 +5,7 @@ import java.util.List;
 import java.util.concurrent.ThreadLocalRandom;
 
 import javax.persistence.CascadeType;
-import javax.persistence.Column;
+
 import javax.persistence.Entity;
 import javax.persistence.FetchType;
 import javax.persistence.GeneratedValue;
@@ -178,8 +178,8 @@ public class UserEntity implements Serializable {
 		long smallest = 1000_0000_0000_0000L;
 		long biggest = 9999_9999_9999_9999L;
 
-		long random = ThreadLocalRandom.current().nextLong(smallest, biggest + 1);
-		return random;
+	    return ThreadLocalRandom.current().nextLong(smallest, biggest + 1);
+		
 	}
 	
 	

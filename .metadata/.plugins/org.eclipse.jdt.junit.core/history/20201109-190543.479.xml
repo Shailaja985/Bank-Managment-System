@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="BmsUserRegisterApplicationTests.testUserRegistrationfail7" project="bms-user-register" tests="1" started="1" failures="0" errors="0" ignored="0">
+  <testsuite name="com.bms.app.BmsUserRegisterApplicationTests" time="0.149" displayname="BmsUserRegisterApplicationTests" uniqueid="[engine:junit-jupiter]/[class:com.bms.app.BmsUserRegisterApplicationTests]">
+    <testcase name="testUserRegistrationfail7" classname="com.bms.app.BmsUserRegisterApplicationTests" time="0.149" displayname="testUserRegistrationfail7()" uniqueid="[engine:junit-jupiter]/[class:com.bms.app.BmsUserRegisterApplicationTests]/[method:testUserRegistrationfail7()]"/>
+  </testsuite>
+</testrun>

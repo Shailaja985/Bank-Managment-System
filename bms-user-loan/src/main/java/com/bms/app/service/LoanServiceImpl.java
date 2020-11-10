@@ -7,7 +7,7 @@ import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.bms.app.BmsUserLoanApplication;
+
 import com.bms.app.model.LoanDetails;
 
 import com.bms.app.repository.LoanRepositoryImpl;
@@ -19,7 +19,7 @@ public class LoanServiceImpl implements LoanService{
 	@Autowired
 	private LoanRepositoryImpl loanRepositoryImpl;
 
-	public static final Logger logger = LoggerFactory.getLogger(BmsUserLoanApplication.class);
+	public static final Logger logger = LoggerFactory.getLogger(LoanServiceImpl.class);
 
 	@Override
 	public LoanDetails applyLoan(LoanDetails loanDetails) {
